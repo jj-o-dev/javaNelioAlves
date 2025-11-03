@@ -1,1 +1,1 @@
-## Minhas soluções dos exercícios
+## Minhas soluções
