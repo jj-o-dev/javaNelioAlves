@@ -21,12 +21,7 @@ public class ImportedProduct extends Product{
     }
 
     @Override
-    public double getPrice() {
-        return super.getPrice() + getCustomFee();
-    }
-
-    @Override
     public String priceTag() {
-        return super.priceTag() + String.format(" (Customs Fee: $ %.2f)", getCustomFee());
+        return getName() + String.format(" $ %.2f", getPrice() + getCustomFee()) + String.format(" (Customs Fee: $ %.2f)", getCustomFee());
     }
 }
