@@ -26,8 +26,5 @@ public class PessoaFisica extends Pessoa{
         return getRendaAnual() * percent;
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
-    }
+
 }
